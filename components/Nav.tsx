@@ -21,6 +21,7 @@ export function Nav() {
       className={[
         "fixed left-0 right-0 top-0 z-[100] flex items-center justify-between border-b border-transparent px-5 py-[14px] backdrop-blur-[14px] transition-all duration-300 ease-out md:px-8 md:py-[18px]",
         scrolled
+        
           ? "border-[var(--border)] bg-[rgba(10,10,10,0.85)] py-3 md:py-[14px]"
           : "bg-[rgba(10,10,10,0.6)]",
       ].join(" ")}
